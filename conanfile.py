@@ -10,7 +10,7 @@ class SchedulerConan(ConanFile):
     url = "https://github.com/omaralvarez/conan-Scheduler"
     repo_url = "https://github.com/omaralvarez/Scheduler"
     author = "Bosma, Omar Alvarez"
-    requires = "CTPL/0.0.2@omaralvarez/public-conan"
+    requires = "CTPL/0.0.2@omaralvarez/public-conan", "croncpp/master@omaralvarez/public-conan"
     no_copy_source = True
 
     def source(self):
